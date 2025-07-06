@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 import "./form.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 export default function Form() {
   // const router = useRouter();
@@ -64,7 +66,12 @@ export default function Form() {
           className="button w-full btn-google"
           size="lg"
         >
-          <i class="googleLogin fa-brands fa-google"></i>
+          <FontAwesomeIcon
+            className="googleLoginicon"
+            // icon="fa-brands fa-google"
+            icon={faGoogle}
+            style={{ color: "#FFD43B" }}
+          />
           Login with Google
         </button>
       </div>
