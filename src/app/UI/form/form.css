@@ -1,0 +1,58 @@
+.errorPass {
+  padding: 2px;
+  height: 26px;
+  /* border: 1px solid grey; */
+}
+.errorMail {
+  padding: 2px;
+  height: 26px;
+  /* border: 1px solid grey; */
+}
+.field .input {
+  width: 100%;
+  font-size: 18px;
+  padding: 6px;
+  margin: 18px 0 0 0;
+  box-shadow: 2px 1px 6px 1px #d2d2d2;
+  background-color: #ffffff16;
+  border-radius: 4px;
+}
+.button {
+  margin: 24px 0 0 0;
+  box-shadow: 2px 1px 6px 1px #d2d2d2;
+  background: #ffffff16;
+
+  padding: 12px 4px;
+  border-radius: 4px;
+}
+.btn-google {
+  font-weight: 600;
+  color: #6c6c6c;
+}
+.btn-google:active {
+  font-weight: 600;
+  color: #000000;
+}
+.button:active {
+  background-color: #d3d1d1ac;
+}
+.checkboxContain {
+  display: flex;
+  align-items: center;
+}
+#remember {
+  margin-right: 6px;
+  height: 28px;
+  width: 28px;
+}
+.googleLogin {
+  margin-right: 4px;
+  color: #ffd43b;
+}
+.loginForm {
+  max-width: 640px;
+  margin: auto;
+}
+.optionalChoose {
+  margin-top: 18px;
+}
